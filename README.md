@@ -1,10 +1,4 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/birukbahiru/footcap)
-  ![GitHub stars](https://img.shields.io/github/stars/birukbahiru/footcap?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/birukbahiru/footcap?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/birukbahiru?style=social)](https://twitter.com/intent/follow?screen_name=birukbahiru)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/BsmRYjW4csw?style=social)](https://youtu.be/BsmRYjW4csw)
+
 
   <br />
   <br />
@@ -13,7 +7,7 @@
 
   Footcap is fully responsive ecommerce website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://birukbahiru.github.io/footcap/"><strong>➥ Live Demo</strong></a>
+  <a href="https://siphosethu22.github.io/Leon-Kicks/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -47,7 +41,7 @@ git clone https://github.com/birukbahiru/footcap.git
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/birukbahiru).
+If you want to contact with me you can reach me at [GitHub](https://www.github.com/siphosethu22).
 
 ### License
 
