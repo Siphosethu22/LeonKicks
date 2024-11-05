@@ -1,0 +1,152 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Responsive Navigation */
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+}
+
+header nav a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Search Bar Styling */
+#search {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content */
+section {
+    margin-bottom: 40px;
+}
+
+/* Product List */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    flex: 1 1 200px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Cart & Wishlist Item Layout */
+.cart-item, .wishlist-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+    
+    header, section, footer {
+        text-align: center;
+    }
+
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cart-item, .wishlist-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    #notification {
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+    }
+}
